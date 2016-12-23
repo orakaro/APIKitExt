@@ -1,0 +1,16 @@
+PODS:
+  - APIKitExt (0.1.0)
+
+DEPENDENCIES:
+  - APIKitExt (from `../`)
+
+EXTERNAL SOURCES:
+  APIKitExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  APIKitExt: 016b1b7daca56141667b25c20daa1db4d1073817
+
+PODFILE CHECKSUM: 03fd77c3929903d52ad1376e9df3a5afaa6a7461
+
+COCOAPODS: 1.1.1

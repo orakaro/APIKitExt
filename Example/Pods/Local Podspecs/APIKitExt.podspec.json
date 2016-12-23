@@ -1,0 +1,22 @@
+{
+  "name": "APIKitExt",
+  "version": "0.1.0",
+  "summary": "A short description of APIKitExt.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/APIKitExt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Orakaro": "nhatminh_179@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/APIKitExt.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "APIKitExt/Classes/**/*"
+}

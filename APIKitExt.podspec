@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'APIKitExt'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of APIKitExt.'
+  s.version          = '0.0.1'
+  s.summary          = 'Useful extensions for APIKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+APIKitExt is a set of useful extension to work with APIKit and libraries such as ObjectMapper etc
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/APIKitExt'
+  s.homepage         = 'https://github.com/DTVD/APIKitExt'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Orakaro' => 'nhatminh_179@hotmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/APIKitExt.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DTVD/APIKitExt.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'APIKitExt/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'APIKitExt' => ['APIKitExt/Assets/*.png']
   # }
