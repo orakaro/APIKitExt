@@ -2,5 +2,7 @@ use_frameworks!
 
 target 'APIKitExt_Example' do
   pod 'APIKitExt/ObjectMapper', :path => '../'
+  pod 'APIKitExt/Himotoki', :path => '../'
+  pod 'APIKitExt/Argo', :path => '../'
   pod 'APIKitExt/RxSwift', :path => '../'
 end

@@ -1,19 +1,31 @@
 PODS:
   - APIKit (3.1.1):
     - Result (~> 3.0)
+  - APIKitExt/Argo (0.0.1):
+    - APIKitExt/Core
+    - Argo (= 4.1.1)
   - APIKitExt/Core (0.0.1):
     - APIKit (= 3.1.1)
+  - APIKitExt/Himotoki (0.0.1):
+    - APIKitExt/Core
+    - Himotoki (= 3.0.0)
   - APIKitExt/ObjectMapper (0.0.1):
     - APIKitExt/Core
     - ObjectMapper (= 2.2.2)
   - APIKitExt/RxSwift (0.0.1):
     - APIKitExt/Core
     - RxSwift (= 3.0.1)
+  - Argo (4.1.1):
+    - Runes (>= 4.0.0)
+  - Himotoki (3.0.0)
   - ObjectMapper (2.2.2)
   - Result (3.1.0)
+  - Runes (4.0.1)
   - RxSwift (3.0.1)
 
 DEPENDENCIES:
+  - APIKitExt/Argo (from `../`)
+  - APIKitExt/Himotoki (from `../`)
   - APIKitExt/ObjectMapper (from `../`)
   - APIKitExt/RxSwift (from `../`)
 
@@ -23,11 +35,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
-  APIKitExt: 207e56123b4928441d0b02d37df235c059133f9b
+  APIKitExt: 97d28a95b8368755ff3f25ae788c710fc6e554c7
+  Argo: 014ac072f97462bc1a9b83d302edb351488a532f
+  Himotoki: df74b01035e86e021b7b04a15b033a7fd189b84f
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
   RxSwift: af5680055c4ad04480189c52d28385b1029493a6
 
-PODFILE CHECKSUM: 2c27ac90e37233073f27ee8cfcf4ecad048ea2f3
+PODFILE CHECKSUM: d5aa1150195bf4de5aeb389ffa5aadec73c56854
 
 COCOAPODS: 1.1.1

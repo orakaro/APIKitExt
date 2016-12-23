@@ -43,6 +43,30 @@
       }
     },
     {
+      "name": "Himotoki",
+      "source_files": "Sources/Classes/Himotoki/*.swift",
+      "dependencies": {
+        "APIKitExt/Core": [
+
+        ],
+        "Himotoki": [
+          "3.0.0"
+        ]
+      }
+    },
+    {
+      "name": "Argo",
+      "source_files": "Sources/Classes/Argo/*.swift",
+      "dependencies": {
+        "APIKitExt/Core": [
+
+        ],
+        "Argo": [
+          "4.1.1"
+        ]
+      }
+    },
+    {
       "name": "RxSwift",
       "source_files": "Sources/Classes/RxSwift/*.swift",
       "dependencies": {

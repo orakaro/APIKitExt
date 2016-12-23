@@ -13,6 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		97BA591F6D0710A806541BEE /* Pods_APIKitExt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */; };
+		B401BABD1E0D2C6100F93BC4 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */; };
+		B401BABF1E0D2C9500F93BC4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABE1E0D2C9500F93BC4 /* Repo.swift */; };
+		B401BAC11E0D677E00F93BC4 /* GithubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */; };
+		B401BAC31E0D6DFA00F93BC4 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BAC21E0D6DFA00F93BC4 /* SchedulerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		81D83B10964604D9E4BAB7C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A5EF206D927F04BE6F7BDB0D /* APIKitExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APIKitExt.podspec; path = ../APIKitExt.podspec; sourceTree = "<group>"; };
+		B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
+		B401BABE1E0D2C9500F93BC4 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIService.swift; sourceTree = "<group>"; };
+		B401BAC21E0D6DFA00F93BC4 /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
 		C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIKitExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CD31ACDF6C49A1F5EF399C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +73,7 @@
 		607FACD21AFB9204008FA782 /* Example for APIKitExt */ = {
 			isa = PBXGroup;
 			children = (
+				B401BABB1E0D2BDE00F93BC4 /* Model */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -92,6 +101,17 @@
 				E8CD31ACDF6C49A1F5EF399C /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B401BABB1E0D2BDE00F93BC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */,
+				B401BABE1E0D2C9500F93BC4 /* Repo.swift */,
+				B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */,
+				B401BAC21E0D6DFA00F93BC4 /* SchedulerService.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		E00343CF68F09F5E0B254AEC /* Pods */ = {
@@ -235,8 +255,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B401BABD1E0D2C6100F93BC4 /* RepoRequest.swift in Sources */,
+				B401BAC31E0D6DFA00F93BC4 /* SchedulerService.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B401BAC11E0D677E00F93BC4 /* GithubAPIService.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B401BABF1E0D2C9500F93BC4 /* Repo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,18 @@ APIKitExt is a set of useful extension to work with APIKit and libraries such as
     ss.dependency "ObjectMapper", '2.2.2'
   end
 
+  s.subspec "Himotoki" do |ss|
+    ss.source_files  = "Sources/Classes/Himotoki/*.swift"
+    ss.dependency "APIKitExt/Core"
+    ss.dependency "Himotoki", '3.0.0'
+  end
+
+  s.subspec "Argo" do |ss|
+    ss.source_files  = "Sources/Classes/Argo/*.swift"
+    ss.dependency "APIKitExt/Core"
+    ss.dependency "Argo", '4.1.1'
+  end
+
   s.subspec "RxSwift" do |ss|
     ss.source_files = "Sources/Classes/RxSwift/*.swift"
     ss.dependency "APIKitExt/Core"

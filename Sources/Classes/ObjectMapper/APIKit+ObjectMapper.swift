@@ -1,6 +1,6 @@
 //
 //  APIKit+ObjectMapper.swift
-//  mercari
+//
 //
 //  Created by DTVD on 11/12/16.
 //  Copyright © 2016 DTVD. All rights reserved.
@@ -13,7 +13,7 @@ enum MapError: Error {
     case Unmatchable(Any)
 }
 
-extension Mappable {
+public extension Mappable {
 
     public static func mapObject(_ object: Any) throws -> Self {
         guard let result = Mapper<Self>().map(JSONObject: object) else {
@@ -32,7 +32,7 @@ extension Mappable {
     }
 }
 
-extension ImmutableMappable {
+public extension ImmutableMappable {
 
     public static func mapObject(_ object: Any) throws -> Self {
         return try Mapper<Self>().map(JSONObject: object)

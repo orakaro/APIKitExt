@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import APIKit
 
-extension Session {
+public extension Session {
     public static func send<T: Request>(request: T) -> Observable<T.Response> {
         return Observable.create { observer in
             let cancellableToken = send(request) { result in
