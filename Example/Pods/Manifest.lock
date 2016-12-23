@@ -1,14 +1,21 @@
 PODS:
   - APIKit (3.1.1):
     - Result (~> 3.0)
-  - APIKitExt (0.0.1):
+  - APIKitExt/Core (0.0.1):
+    - APIKit (= 3.1.1)
+  - APIKitExt/ObjectMapper (0.0.1):
+    - APIKitExt/Core
     - ObjectMapper (= 2.2.2)
+  - APIKitExt/RxSwift (0.0.1):
+    - APIKitExt/Core
+    - RxSwift (= 3.0.1)
   - ObjectMapper (2.2.2)
   - Result (3.1.0)
+  - RxSwift (3.0.1)
 
 DEPENDENCIES:
-  - APIKit (= 3.1.1)
-  - APIKitExt (from `../`)
+  - APIKitExt/ObjectMapper (from `../`)
+  - APIKitExt/RxSwift (from `../`)
 
 EXTERNAL SOURCES:
   APIKitExt:
@@ -16,10 +23,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
-  APIKitExt: 3cdce4b6945bf3f4c023023ab6ebf4317d39f23d
+  APIKitExt: 207e56123b4928441d0b02d37df235c059133f9b
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
 
-PODFILE CHECKSUM: bc19b9d142517d0ed22e7159fa7334134c0edc96
+PODFILE CHECKSUM: 2c27ac90e37233073f27ee8cfcf4ecad048ea2f3
 
 COCOAPODS: 1.1.1
