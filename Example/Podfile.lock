@@ -1,7 +1,13 @@
 PODS:
-  - APIKitExt (0.1.0)
+  - APIKit (3.1.1):
+    - Result (~> 3.0)
+  - APIKitExt (0.0.1):
+    - ObjectMapper (= 2.2.2)
+  - ObjectMapper (2.2.2)
+  - Result (3.1.0)
 
 DEPENDENCIES:
+  - APIKit (= 3.1.1)
   - APIKitExt (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +15,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APIKitExt: 016b1b7daca56141667b25c20daa1db4d1073817
+  APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
+  APIKitExt: 3cdce4b6945bf3f4c023023ab6ebf4317d39f23d
+  ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
 
-PODFILE CHECKSUM: 03fd77c3929903d52ad1376e9df3a5afaa6a7461
+PODFILE CHECKSUM: bc19b9d142517d0ed22e7159fa7334134c0edc96
 
 COCOAPODS: 1.1.1

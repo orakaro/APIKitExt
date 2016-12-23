@@ -2,10 +2,11 @@ use_frameworks!
 
 target 'APIKitExt_Example' do
   pod 'APIKitExt', :path => '../'
+  pod 'APIKit', '3.1.1'
 
   target 'APIKitExt_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end
