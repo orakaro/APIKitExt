@@ -85,21 +85,19 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/APIKit/APIKit.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/APIKitExt/APIKitExt.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Argo/Argo.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Himotoki/Himotoki.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/ObjectMapper/ObjectMapper.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/APIKitExt-Argo-Core-RxSwift/APIKitExt.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Result/Result.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Runes/Runes.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RxSwift/RxSwift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Argo/Argo.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Curry/Curry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Runes/Runes.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/APIKit/APIKit.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/APIKitExt/APIKitExt.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Argo/Argo.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Himotoki/Himotoki.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/ObjectMapper/ObjectMapper.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/APIKitExt-Argo-Core-RxSwift/APIKitExt.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Result/Result.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/Runes/Runes.framework"
   install_framework "$BUILT_PRODUCTS_DIR/RxSwift/RxSwift.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Argo/Argo.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Curry/Curry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Runes/Runes.framework"
 fi

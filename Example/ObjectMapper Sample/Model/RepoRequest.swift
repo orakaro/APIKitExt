@@ -39,13 +39,13 @@ struct RepoRequest: Request {
 
 extension RepoRequest {
 
-    func response(from object: Any, urlResponse: HTTPURLResponse) -> Response {
+    func response(from object: Any, urlResponse: HTTPURLResponse) -> [Repo] {
         guard
             let tree = object as? [String: Any],
             let items = tree["items"],
             let repos = try? Repo.mapArray(items)
-        else {
-            return []
+            else {
+                return []
         }
         return repos
     }

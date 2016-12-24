@@ -10,15 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let service = GithubApiService()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        service.getRepoList(query: "Swift"){ result in
+            print(result.debugDescription)
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    
 }
 

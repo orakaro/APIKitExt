@@ -14,6 +14,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		75AC433D3700BE5E7378B152 /* Pods_Himotoki_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */; };
 		97BA591F6D0710A806541BEE /* Pods_APIKitExt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */; };
 		B401BABD1E0D2C6100F93BC4 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */; };
 		B401BABF1E0D2C9500F93BC4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABE1E0D2C9500F93BC4 /* Repo.swift */; };
@@ -29,10 +30,20 @@
 		B41BC44D1E0E3B260075ED16 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BC4491E0E3B260075ED16 /* RepoRequest.swift */; };
 		B41BC44E1E0E3B260075ED16 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BC44A1E0E3B260075ED16 /* SchedulerService.swift */; };
 		B41BC4501E0E3C180075ED16 /* Pods_APIKitExt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BC44F1E0E3C180075ED16 /* Pods_APIKitExt_Example.framework */; };
+		B43DF67A1E0E611C0045688F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF6791E0E611C0045688F /* AppDelegate.swift */; };
+		B43DF67C1E0E611C0045688F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF67B1E0E611C0045688F /* ViewController.swift */; };
+		B43DF67F1E0E611C0045688F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DF67D1E0E611C0045688F /* Main.storyboard */; };
+		B43DF6811E0E611C0045688F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43DF6801E0E611C0045688F /* Assets.xcassets */; };
+		B43DF6841E0E611C0045688F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DF6821E0E611C0045688F /* LaunchScreen.storyboard */; };
+		B43DF68E1E0E618E0045688F /* GithubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF68A1E0E618E0045688F /* GithubAPIService.swift */; };
+		B43DF68F1E0E618E0045688F /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF68B1E0E618E0045688F /* Repo.swift */; };
+		B43DF6901E0E618E0045688F /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF68C1E0E618E0045688F /* RepoRequest.swift */; };
+		B43DF6911E0E618E0045688F /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF68D1E0E618E0045688F /* SchedulerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06F2A2D5B02D2A6357233AEA /* Pods-APIKitExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIKitExt_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIKitExt_Example/Pods-APIKitExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himotoki Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample.release.xcconfig"; sourceTree = "<group>"; };
 		4ED79E5282E370AE85C92245 /* Pods-APIKitExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIKitExt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIKitExt_Example/Pods-APIKitExt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ObjectMapper Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectMapper Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +56,7 @@
 		81D83B10964604D9E4BAB7C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		A3BACFDE94ED969ED09DCFD8 /* Pods_Argo_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Argo_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5EF206D927F04BE6F7BDB0D /* APIKitExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APIKitExt.podspec; path = ../../APIKitExt.podspec; sourceTree = "<group>"; };
+		B1CECC39C84E609EFE21DC83 /* Pods-Himotoki Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himotoki Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
 		B401BABE1E0D2C9500F93BC4 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIService.swift; sourceTree = "<group>"; };
@@ -61,6 +73,18 @@
 		B41BC4491E0E3B260075ED16 /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
 		B41BC44A1E0E3B260075ED16 /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
 		B41BC44F1E0E3C180075ED16 /* Pods_APIKitExt_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_APIKitExt_Example.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/APIKitExt-hbttvgqggdqkbjbfwprdftgzjrgm/Build/Products/Debug-iphonesimulator/Pods_APIKitExt_Example.framework"; sourceTree = "<group>"; };
+		B43DF6771E0E611C0045688F /* Himotoki Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Himotoki Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43DF6791E0E611C0045688F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43DF67B1E0E611C0045688F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43DF67E1E0E611C0045688F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43DF6801E0E611C0045688F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43DF6831E0E611C0045688F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B43DF6851E0E611C0045688F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43DF68A1E0E618E0045688F /* GithubAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIService.swift; sourceTree = "<group>"; };
+		B43DF68B1E0E618E0045688F /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		B43DF68C1E0E618E0045688F /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
+		B43DF68D1E0E618E0045688F /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
+		C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himotoki_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIKitExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21AEE096FE9F0600C8148C9 /* Pods-ObjectMapper Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper Sample/Pods-ObjectMapper Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		DE1A9E76FE305995DF40CBDF /* Pods-ObjectMapper Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper Sample/Pods-ObjectMapper Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +112,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B43DF6741E0E611C0045688F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AC433D3700BE5E7378B152 /* Pods_Himotoki_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				B41BC4351E0E37450075ED16 /* Argo Sample */,
+				B43DF6781E0E611C0045688F /* Himotoki Sample */,
 				F27AB2C6056EA53D0C9CA9CC /* Frameworks */,
 				607FACD21AFB9204008FA782 /* ObjectMapper Sample */,
 				E00343CF68F09F5E0B254AEC /* Pods */,
@@ -108,6 +141,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* ObjectMapper Sample.app */,
 				B41BC4341E0E37450075ED16 /* Argo Sample.app */,
+				B43DF6771E0E611C0045688F /* Himotoki Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +214,31 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B43DF6781E0E611C0045688F /* Himotoki Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B43DF6891E0E618E0045688F /* Model */,
+				B43DF6791E0E611C0045688F /* AppDelegate.swift */,
+				B43DF67B1E0E611C0045688F /* ViewController.swift */,
+				B43DF67D1E0E611C0045688F /* Main.storyboard */,
+				B43DF6801E0E611C0045688F /* Assets.xcassets */,
+				B43DF6821E0E611C0045688F /* LaunchScreen.storyboard */,
+				B43DF6851E0E611C0045688F /* Info.plist */,
+			);
+			path = "Himotoki Sample";
+			sourceTree = "<group>";
+		};
+		B43DF6891E0E618E0045688F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B43DF68A1E0E618E0045688F /* GithubAPIService.swift */,
+				B43DF68B1E0E618E0045688F /* Repo.swift */,
+				B43DF68C1E0E618E0045688F /* RepoRequest.swift */,
+				B43DF68D1E0E618E0045688F /* SchedulerService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E00343CF68F09F5E0B254AEC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +248,8 @@
 				7DBE3AD0C570CECB61AA3D9B /* Pods-Argo Sample.release.xcconfig */,
 				D21AEE096FE9F0600C8148C9 /* Pods-ObjectMapper Sample.debug.xcconfig */,
 				DE1A9E76FE305995DF40CBDF /* Pods-ObjectMapper Sample.release.xcconfig */,
+				B1CECC39C84E609EFE21DC83 /* Pods-Himotoki Sample.debug.xcconfig */,
+				39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,6 +261,7 @@
 				C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */,
 				A3BACFDE94ED969ED09DCFD8 /* Pods_Argo_Sample.framework */,
 				E12143C29DE185124C66F4CE /* Pods_ObjectMapper_Sample.framework */,
+				C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,6 +309,26 @@
 			productReference = B41BC4341E0E37450075ED16 /* Argo Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B43DF6761E0E611C0045688F /* Himotoki Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43DF6881E0E611C0045688F /* Build configuration list for PBXNativeTarget "Himotoki Sample" */;
+			buildPhases = (
+				7A2D11CECE81C807CC185470 /* [CP] Check Pods Manifest.lock */,
+				B43DF6731E0E611C0045688F /* Sources */,
+				B43DF6741E0E611C0045688F /* Frameworks */,
+				B43DF6751E0E611C0045688F /* Resources */,
+				FE1242E33FF39336232BB0DA /* [CP] Embed Pods Frameworks */,
+				B387FA047C2C7DBB92756F4D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Himotoki Sample";
+			productName = "Himotoki Sample";
+			productReference = B43DF6771E0E611C0045688F /* Himotoki Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -259,12 +341,17 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = UNN39U2ELX;
+						DevelopmentTeam = QHAYH73D9C;
 						LastSwiftMigration = 0820;
 					};
 					B41BC4331E0E37450075ED16 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = UNN39U2ELX;
+						DevelopmentTeam = QHAYH73D9C;
+						ProvisioningStyle = Automatic;
+					};
+					B43DF6761E0E611C0045688F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QHAYH73D9C;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -284,6 +371,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* ObjectMapper Sample */,
 				B41BC4331E0E37450075ED16 /* Argo Sample */,
+				B43DF6761E0E611C0045688F /* Himotoki Sample */,
 			);
 		};
 /* End PBXProject section */
@@ -306,6 +394,16 @@
 				B41BC4411E0E37450075ED16 /* LaunchScreen.storyboard in Resources */,
 				B41BC43E1E0E37450075ED16 /* Assets.xcassets in Resources */,
 				B41BC43C1E0E37450075ED16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43DF6751E0E611C0045688F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DF6841E0E611C0045688F /* LaunchScreen.storyboard in Resources */,
+				B43DF6811E0E611C0045688F /* Assets.xcassets in Resources */,
+				B43DF67F1E0E611C0045688F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +440,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Argo Sample/Pods-Argo Sample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7A2D11CECE81C807CC185470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		AC328C62A0D2766021392911 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +468,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Argo Sample/Pods-Argo Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B387FA047C2C7DBB92756F4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3145D23628836CA1D599CDA /* [CP] Check Pods Manifest.lock */ = {
@@ -402,6 +530,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FE1242E33FF39336232BB0DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -428,6 +571,19 @@
 				B41BC4391E0E37450075ED16 /* ViewController.swift in Sources */,
 				B41BC4371E0E37450075ED16 /* AppDelegate.swift in Sources */,
 				B41BC44C1E0E3B260075ED16 /* Repo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43DF6731E0E611C0045688F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DF68E1E0E618E0045688F /* GithubAPIService.swift in Sources */,
+				B43DF6911E0E618E0045688F /* SchedulerService.swift in Sources */,
+				B43DF6901E0E618E0045688F /* RepoRequest.swift in Sources */,
+				B43DF67C1E0E611C0045688F /* ViewController.swift in Sources */,
+				B43DF67A1E0E611C0045688F /* AppDelegate.swift in Sources */,
+				B43DF68F1E0E618E0045688F /* Repo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +624,22 @@
 			);
 			name = LaunchScreen.storyboard;
 			path = .;
+			sourceTree = "<group>";
+		};
+		B43DF67D1E0E611C0045688F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DF67E1E0E611C0045688F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43DF6821E0E611C0045688F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43DF6831E0E611C0045688F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -566,12 +738,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UNN39U2ELX;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
 				INFOPLIST_FILE = "ObjectMapper Sample/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.ObjectMapper-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -584,12 +756,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UNN39U2ELX;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
 				INFOPLIST_FILE = "ObjectMapper Sample/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.ObjectMapper-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,7 +776,7 @@
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = UNN39U2ELX;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
 				INFOPLIST_FILE = "Argo Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -623,11 +795,49 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				DEVELOPMENT_TEAM = UNN39U2ELX;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
 				INFOPLIST_FILE = "Argo Sample/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.Argo-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B43DF6861E0E611C0045688F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CECC39C84E609EFE21DC83 /* Pods-Himotoki Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
+				INFOPLIST_FILE = "Himotoki Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.Himotoki-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43DF6871E0E611C0045688F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
+				INFOPLIST_FILE = "Himotoki Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.Himotoki-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -663,6 +873,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B43DF6881E0E611C0045688F /* Build configuration list for PBXNativeTarget "Himotoki Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43DF6861E0E611C0045688F /* Debug */,
+				B43DF6871E0E611C0045688F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

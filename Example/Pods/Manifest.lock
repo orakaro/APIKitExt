@@ -17,6 +17,7 @@ PODS:
     - RxSwift (= 3.0.1)
   - Argo (4.1.1):
     - Runes (>= 4.0.0)
+  - Curry (3.0.0)
   - Himotoki (3.0.0)
   - ObjectMapper (2.2.2)
   - Result (3.1.0)
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - APIKitExt/Himotoki (from `../`)
   - APIKitExt/ObjectMapper (from `../`)
   - APIKitExt/RxSwift (from `../`)
+  - Curry (= 3.0.0)
 
 EXTERNAL SOURCES:
   APIKitExt:
@@ -37,12 +39,13 @@ SPEC CHECKSUMS:
   APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
   APIKitExt: 97d28a95b8368755ff3f25ae788c710fc6e554c7
   Argo: 014ac072f97462bc1a9b83d302edb351488a532f
+  Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
   Himotoki: df74b01035e86e021b7b04a15b033a7fd189b84f
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
   Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
   RxSwift: af5680055c4ad04480189c52d28385b1029493a6
 
-PODFILE CHECKSUM: ac00c285ae0b8a6d38a7afd3015c4a11e91f14cb
+PODFILE CHECKSUM: caf27de2b8a99397a0ad87c951093372c410b7c9
 
 COCOAPODS: 1.1.1

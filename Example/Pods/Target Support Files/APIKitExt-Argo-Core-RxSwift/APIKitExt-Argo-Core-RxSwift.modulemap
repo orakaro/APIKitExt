@@ -1,5 +1,5 @@
 framework module APIKitExt {
-  umbrella header "APIKitExt-umbrella.h"
+  umbrella header "APIKitExt-Argo-Core-RxSwift-umbrella.h"
 
   export *
   module * { export * }

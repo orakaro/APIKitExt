@@ -2,14 +2,16 @@ use_frameworks!
 
 target 'ObjectMapper Sample' do
   pod 'APIKitExt/ObjectMapper', :path => '../'
-  pod 'APIKitExt/Himotoki', :path => '../'
-  pod 'APIKitExt/Argo', :path => '../'
   pod 'APIKitExt/RxSwift', :path => '../'
 end
 
 target 'Argo Sample' do
-  pod 'APIKitExt/ObjectMapper', :path => '../'
-  pod 'APIKitExt/Himotoki', :path => '../'
   pod 'APIKitExt/Argo', :path => '../'
+  pod 'Curry', '3.0.0'
+  pod 'APIKitExt/RxSwift', :path => '../'
+end
+
+target 'Himotoki Sample' do
+  pod 'APIKitExt/Himotoki', :path => '../'
   pod 'APIKitExt/RxSwift', :path => '../'
 end

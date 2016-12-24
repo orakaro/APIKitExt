@@ -7,27 +7,21 @@
 //
 
 import Foundation
-import ObjectMapper
+import Argo
+import Curry
+import Runes
 
-struct Repo: Mappable {
-    var id: Int?
-    var fullName: String?
-    var avatar: String?
-    var stargazersCount: Int?
-
-    init?(map: Map) {}
-
-    mutating func mapping(map: Map) {
-        id              <- map["id"]
-        fullName        <- map["full_name"]
-        avatar          <- map["owner.avatar_url"]
-        stargazersCount <- map["stargazers_count"]
-    }
+struct Repo {
+    var id: Int
+    var fullName: String
+    var stargazersCount: Int
 }
 
-extension Repo: Equatable {
-    static public func ==(lhs: Repo, rhs: Repo) -> Bool {
-        return lhs.id == rhs.id &&
-            lhs.fullName == rhs.fullName
+extension Repo: Decodable {
+    static func decode(_ j: JSON) -> Decoded<Repo> {
+        return curry(Repo.init)
+            <^> j <| "id"
+            <*> j <| "full_name"
+            <*> j <| "stargazers_count"
     }
 }

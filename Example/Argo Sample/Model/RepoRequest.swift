@@ -9,6 +9,7 @@
 import Foundation
 import APIKit
 import APIKitExt
+import Argo
 
 struct RepoRequest: Request {
     typealias Response = [Repo]
@@ -39,11 +40,10 @@ struct RepoRequest: Request {
 
 extension RepoRequest {
 
-    func response(from object: Any, urlResponse: HTTPURLResponse) -> Response {
+    func response(from object: Any, urlResponse: HTTPURLResponse) -> [Repo] {
         guard
             let tree = object as? [String: Any],
-            let items = tree["items"],
-            let repos = try? Repo.mapArray(items)
+            let repos = decode(tree, rootKey: "items") as [Repo]?
         else {
             return []
         }
