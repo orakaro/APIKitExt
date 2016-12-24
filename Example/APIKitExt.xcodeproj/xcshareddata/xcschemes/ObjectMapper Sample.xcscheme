@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "APIKitExt_Example.app"
-               BlueprintName = "APIKitExt_Example"
+               BuildableName = "ObjectMapper Sample.app"
+               BlueprintName = "ObjectMapper Sample"
                ReferencedContainer = "container:APIKitExt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "APIKitExt_Example.app"
-            BlueprintName = "APIKitExt_Example"
+            BuildableName = "ObjectMapper Sample.app"
+            BlueprintName = "ObjectMapper Sample"
             ReferencedContainer = "container:APIKitExt.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "APIKitExt_Example.app"
-            BlueprintName = "APIKitExt_Example"
+            BuildableName = "ObjectMapper Sample.app"
+            BlueprintName = "ObjectMapper Sample"
             ReferencedContainer = "container:APIKitExt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -99,8 +99,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "APIKitExt_Example.app"
-            BlueprintName = "APIKitExt_Example"
+            BuildableName = "ObjectMapper Sample.app"
+            BlueprintName = "ObjectMapper Sample"
             ReferencedContainer = "container:APIKitExt.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

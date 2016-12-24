@@ -1,6 +1,13 @@
 use_frameworks!
 
-target 'APIKitExt_Example' do
+target 'ObjectMapper Sample' do
+  pod 'APIKitExt/ObjectMapper', :path => '../'
+  pod 'APIKitExt/Himotoki', :path => '../'
+  pod 'APIKitExt/Argo', :path => '../'
+  pod 'APIKitExt/RxSwift', :path => '../'
+end
+
+target 'Argo Sample' do
   pod 'APIKitExt/ObjectMapper', :path => '../'
   pod 'APIKitExt/Himotoki', :path => '../'
   pod 'APIKitExt/Argo', :path => '../'
