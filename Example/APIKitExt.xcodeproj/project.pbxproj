@@ -16,7 +16,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		75AC433D3700BE5E7378B152 /* Pods_Himotoki_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */; };
 		8EAEFA06590038ED2AAC1C52 /* Pods_Himotoki_Sample_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF5A26F12795318C0C7B412 /* Pods_Himotoki_Sample_Tests.framework */; };
-		97BA591F6D0710A806541BEE /* Pods_APIKitExt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */; };
 		B401BABD1E0D2C6100F93BC4 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */; };
 		B401BABF1E0D2C9500F93BC4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABE1E0D2C9500F93BC4 /* Repo.swift */; };
 		B401BAC11E0D677E00F93BC4 /* GithubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */; };
@@ -35,7 +34,6 @@
 		B41BC44C1E0E3B260075ED16 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BC4481E0E3B260075ED16 /* Repo.swift */; };
 		B41BC44D1E0E3B260075ED16 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BC4491E0E3B260075ED16 /* RepoRequest.swift */; };
 		B41BC44E1E0E3B260075ED16 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41BC44A1E0E3B260075ED16 /* SchedulerService.swift */; };
-		B41BC4501E0E3C180075ED16 /* Pods_APIKitExt_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41BC44F1E0E3C180075ED16 /* Pods_APIKitExt_Example.framework */; };
 		B43DF67A1E0E611C0045688F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF6791E0E611C0045688F /* AppDelegate.swift */; };
 		B43DF67C1E0E611C0045688F /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DF67B1E0E611C0045688F /* RepoViewController.swift */; };
 		B43DF67F1E0E611C0045688F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DF67D1E0E611C0045688F /* Main.storyboard */; };
@@ -58,9 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F2A2D5B02D2A6357233AEA /* Pods-APIKitExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIKitExt_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIKitExt_Example/Pods-APIKitExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himotoki Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample.release.xcconfig"; sourceTree = "<group>"; };
-		4ED79E5282E370AE85C92245 /* Pods-APIKitExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIKitExt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIKitExt_Example/Pods-APIKitExt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ObjectMapper Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectMapper Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,7 +92,6 @@
 		B41BC4481E0E3B260075ED16 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		B41BC4491E0E3B260075ED16 /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
 		B41BC44A1E0E3B260075ED16 /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
-		B41BC44F1E0E3C180075ED16 /* Pods_APIKitExt_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_APIKitExt_Example.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/APIKitExt-hbttvgqggdqkbjbfwprdftgzjrgm/Build/Products/Debug-iphonesimulator/Pods_APIKitExt_Example.framework"; sourceTree = "<group>"; };
 		B43DF6771E0E611C0045688F /* Himotoki Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Himotoki Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43DF6791E0E611C0045688F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B43DF67B1E0E611C0045688F /* RepoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +104,6 @@
 		B43DF68C1E0E618E0045688F /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
 		B43DF68D1E0E618E0045688F /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
 		C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Himotoki_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIKitExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21AEE096FE9F0600C8148C9 /* Pods-ObjectMapper Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper Sample/Pods-ObjectMapper Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		D5915E7FC0289F3980B73076 /* Pods-Himotoki Sample Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himotoki Sample Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Himotoki Sample Tests/Pods-Himotoki Sample Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DE1A9E76FE305995DF40CBDF /* Pods-ObjectMapper Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapper Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapper Sample/Pods-ObjectMapper Sample.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97BA591F6D0710A806541BEE /* Pods_APIKitExt_Example.framework in Frameworks */,
 				5F7033B20EC798ADAC87155F /* Pods_ObjectMapper_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41BC4501E0E3C180075ED16 /* Pods_APIKitExt_Example.framework in Frameworks */,
 				295C949CA0D515DD9C75CA84 /* Pods_Argo_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +323,6 @@
 		E00343CF68F09F5E0B254AEC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				06F2A2D5B02D2A6357233AEA /* Pods-APIKitExt_Example.debug.xcconfig */,
-				4ED79E5282E370AE85C92245 /* Pods-APIKitExt_Example.release.xcconfig */,
 				FF6D54714866EAD920B6D886 /* Pods-Argo Sample.debug.xcconfig */,
 				7DBE3AD0C570CECB61AA3D9B /* Pods-Argo Sample.release.xcconfig */,
 				D21AEE096FE9F0600C8148C9 /* Pods-ObjectMapper Sample.debug.xcconfig */,
@@ -348,8 +338,6 @@
 		F27AB2C6056EA53D0C9CA9CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B41BC44F1E0E3C180075ED16 /* Pods_APIKitExt_Example.framework */,
-				C2A75DCD734D3B06DAC6668A /* Pods_APIKitExt_Example.framework */,
 				A3BACFDE94ED969ED09DCFD8 /* Pods_Argo_Sample.framework */,
 				E12143C29DE185124C66F4CE /* Pods_ObjectMapper_Sample.framework */,
 				C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */,
