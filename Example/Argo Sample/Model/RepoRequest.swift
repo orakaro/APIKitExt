@@ -43,7 +43,8 @@ extension RepoRequest {
     func response(from object: Any, urlResponse: HTTPURLResponse) -> [Repo] {
         guard
             let tree = object as? [String: Any],
-            let repos = decode(tree, rootKey: "items") as [Repo]?
+            let items = tree["items"],
+            let repos = try? Repo.mapArray(items)
         else {
             return []
         }

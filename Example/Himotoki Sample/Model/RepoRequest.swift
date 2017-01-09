@@ -45,7 +45,7 @@ extension RepoRequest {
         guard
             let tree = object as? [String: Any],
             let items = tree["items"],
-            let repos: [Repo] = try? decodeArray(items)
+            let repos = try? Repo.mapArray(items)
         else {
             return []
         }

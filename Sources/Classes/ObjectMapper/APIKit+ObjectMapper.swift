@@ -9,10 +9,6 @@
 import Foundation
 import ObjectMapper
 
-enum MapError: Error {
-    case Unmatchable(Any)
-}
-
 public extension Mappable {
 
     public static func mapObject(_ object: Any) throws -> Self {
