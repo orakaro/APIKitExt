@@ -1,0 +1,6 @@
+framework module Pods_Himotoki_Sample_Tests {
+  umbrella header "Pods-Himotoki Sample Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

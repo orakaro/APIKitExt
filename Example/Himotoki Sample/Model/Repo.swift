@@ -12,6 +12,7 @@ import Himotoki
 struct Repo {
     var id: Int
     var fullName: String
+    var avatar: String
     var stargazersCount: Int
 }
 
@@ -20,6 +21,7 @@ extension Repo: Decodable {
         return try Repo(
             id: e <| "id",
             fullName: e <| "full_name",
+            avatar: e <| ["owner", "avatar_url"],
             stargazersCount: e <| "stargazers_count"
         )
     }

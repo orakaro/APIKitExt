@@ -14,4 +14,11 @@ end
 target 'Himotoki Sample' do
   pod 'APIKitExt/Himotoki', :path => '../'
   pod 'APIKitExt/RxSwift', :path => '../'
+  pod 'RxCocoa', '~> 3.0'
+
+  target 'Himotoki Sample Tests' do
+    inherit! :search_paths
+    pod 'RxTest', '~> 3.0'
+  end
 end
+

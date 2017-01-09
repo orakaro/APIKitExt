@@ -22,7 +22,11 @@ PODS:
   - ObjectMapper (2.2.2)
   - Result (3.1.0)
   - Runes (4.0.1)
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
   - RxSwift (3.0.1)
+  - RxTest (3.0.1):
+    - RxSwift (~> 3.0)
 
 DEPENDENCIES:
   - APIKitExt/Argo (from `../`)
@@ -30,6 +34,8 @@ DEPENDENCIES:
   - APIKitExt/ObjectMapper (from `../`)
   - APIKitExt/RxSwift (from `../`)
   - Curry (= 3.0.0)
+  - RxCocoa (~> 3.0)
+  - RxTest (~> 3.0)
 
 EXTERNAL SOURCES:
   APIKitExt:
@@ -44,8 +50,10 @@ SPEC CHECKSUMS:
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
   Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
   RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+  RxTest: 9867e6f3c435af30fbdb44b6d8ec30b78c40b515
 
-PODFILE CHECKSUM: caf27de2b8a99397a0ad87c951093372c410b7c9
+PODFILE CHECKSUM: 0a9ee127db953bcbfac0fd1f94599d4509fa8bd7
 
 COCOAPODS: 1.1.1

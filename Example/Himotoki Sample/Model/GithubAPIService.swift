@@ -11,7 +11,15 @@ import APIKit
 import APIKitExt
 import RxSwift
 
-class GithubApiService {
+protocol GithubApiService {
+    func getRepoList(query: String) -> Observable<[Repo]>
+}
+
+protocol UsesGithubApiService {
+    var githubApiService: GithubApiService { get }
+}
+
+class MixInGithubApiService: GithubApiService {
     let schedulers = SchedulerService.sharedInstance
 
     // Normal
@@ -31,5 +39,8 @@ class GithubApiService {
     func getRepoList(query: String) -> Observable<[Repo]>{
         let request = RepoRequest(query: query)
         return Session.send(request: request)
+            .subscribeOn(schedulers.backgroundWorkScheduler)
+            .observeOn(schedulers.mainScheduler)
     }
 }
+
