@@ -1,7 +1,8 @@
 # APIKitExt
 [![Build Status](https://travis-ci.org/DTVD/APIKitExt.svg?branch=master)](https://travis-ci.org/DTVD/APIKitExt)
+[![Version](https://img.shields.io/cocoapods/v/APIKitExt.svg)]()
 
-Extensions for famous type-safe networking library [APIKit](https://github.com/ishkawa/APIKit), provides easy binding with various JSON serialization such as [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper), [Argo](https://github.com/thoughtbot/Argo), [Himotoki](https://github.com/ikesyo/Himotoki) and also Reactive Extension for [RxSwift](https://github.com/ReactiveX/RxSwift) :tada:
+Extensions for famous type-safe networking library [APIKit](https://github.com/ishkawa/APIKit), provides easy binding with various JSON serialization libraries such as [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper), [Argo](https://github.com/thoughtbot/Argo), [Himotoki](https://github.com/ikesyo/Himotoki) and also Reactive Extension for [RxSwift](https://github.com/ReactiveX/RxSwift) :tada:
 
 ## Requirement
 * Swift 3.0
@@ -19,7 +20,7 @@ pod "APIKitExt"
 ```
 
 # Usage
-Below are detailed explanations for each combination of APIKit and JSON serialization library. You can also check demo apps in Example folder. 
+Below are detailed explanations for each combination of APIKit and JSON serialization library. You can also check demo apps in Example folder.
 
 * [x] [APIKit + ObjectMapper](https://github.com/DTVD/APIKitExt/blob/master/ObjectMapperUsage.md)
 * [x] [APIKit + Argo](https://github.com/DTVD/APIKitExt/blob/master/ArgoUsage.md)

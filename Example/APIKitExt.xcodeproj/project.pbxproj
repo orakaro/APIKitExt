@@ -153,9 +153,9 @@
 			isa = PBXGroup;
 			children = (
 				B41BC4351E0E37450075ED16 /* Argo Sample */,
+				F27AB2C6056EA53D0C9CA9CC /* Frameworks */,
 				B43DF6781E0E611C0045688F /* Himotoki Sample */,
 				B41375251E23D3490030460E /* Himotoki Sample Tests */,
-				F27AB2C6056EA53D0C9CA9CC /* Frameworks */,
 				607FACD21AFB9204008FA782 /* ObjectMapper Sample */,
 				E00343CF68F09F5E0B254AEC /* Pods */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
@@ -222,17 +222,17 @@
 			children = (
 				B41375141E23CA040030460E /* Repo.xib */,
 			);
-			name = Xib;
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		B41375161E23CA150030460E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B43DF67B1E0E611C0045688F /* RepoViewController.swift */,
 				B41375171E23CA280030460E /* Cell */,
 				B41375131E23C9EC0030460E /* Xib */,
+				B43DF67B1E0E611C0045688F /* RepoViewController.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		B41375171E23CA280030460E /* Cell */ = {
@@ -240,7 +240,7 @@
 			children = (
 				B41375181E23CA3C0030460E /* RepoTableViewCell.swift */,
 			);
-			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		B413751A1E23CE1E0030460E /* ViewModel */ = {
@@ -248,7 +248,7 @@
 			children = (
 				B413751B1E23CE2E0030460E /* RepoViewModel.swift */,
 			);
-			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		B413751D1E23D0120030460E /* Extension */ = {
@@ -256,14 +256,14 @@
 			children = (
 				B413751E1E23D01E0030460E /* UIImageView.swift */,
 			);
-			name = Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		B41375251E23D3490030460E /* Himotoki Sample Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B41375261E23D3490030460E /* RepoViewModelTest.swift */,
 				B41375281E23D3490030460E /* Info.plist */,
+				B41375261E23D3490030460E /* RepoViewModelTest.swift */,
 			);
 			path = "Himotoki Sample Tests";
 			sourceTree = "<group>";
@@ -297,14 +297,14 @@
 			isa = PBXGroup;
 			children = (
 				B413751D1E23D0120030460E /* Extension */,
-				B413751A1E23CE1E0030460E /* ViewModel */,
-				B41375161E23CA150030460E /* View */,
 				B43DF6891E0E618E0045688F /* Model */,
+				B41375161E23CA150030460E /* View */,
+				B413751A1E23CE1E0030460E /* ViewModel */,
 				B43DF6791E0E611C0045688F /* AppDelegate.swift */,
-				B43DF67D1E0E611C0045688F /* Main.storyboard */,
 				B43DF6801E0E611C0045688F /* Assets.xcassets */,
-				B43DF6821E0E611C0045688F /* LaunchScreen.storyboard */,
 				B43DF6851E0E611C0045688F /* Info.plist */,
+				B43DF6821E0E611C0045688F /* LaunchScreen.storyboard */,
+				B43DF67D1E0E611C0045688F /* Main.storyboard */,
 			);
 			path = "Himotoki Sample";
 			sourceTree = "<group>";
@@ -812,6 +812,7 @@
 				B43DF67E1E0E611C0045688F /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		B43DF6821E0E611C0045688F /* LaunchScreen.storyboard */ = {
@@ -820,6 +821,7 @@
 				B43DF6831E0E611C0045688F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -952,6 +954,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF7293A30EB09F07B0995D7E /* Pods-Himotoki Sample Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -972,6 +975,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5915E7FC0289F3980B73076 /* Pods-Himotoki Sample Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -990,6 +994,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF6D54714866EAD920B6D886 /* Pods-Argo Sample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1010,6 +1015,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DBE3AD0C570CECB61AA3D9B /* Pods-Argo Sample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1028,6 +1034,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1CECC39C84E609EFE21DC83 /* Pods-Himotoki Sample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1048,6 +1055,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
