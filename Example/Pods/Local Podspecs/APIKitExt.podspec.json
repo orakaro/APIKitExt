@@ -67,6 +67,18 @@
       }
     },
     {
+      "name": "SwiftyJSON",
+      "source_files": "Sources/Classes/SwiftyJSON/*.swift",
+      "dependencies": {
+        "APIKitExt/Core": [
+
+        ],
+        "SwiftyJSON": [
+          "3.1.4"
+        ]
+      }
+    },
+    {
       "name": "RxSwift",
       "source_files": "Sources/Classes/RxSwift/*.swift",
       "dependencies": {

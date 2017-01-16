@@ -15,6 +15,9 @@ PODS:
   - APIKitExt/RxSwift (0.0.1):
     - APIKitExt/Core
     - RxSwift (= 3.0.1)
+  - APIKitExt/SwiftyJSON (0.0.1):
+    - APIKitExt/Core
+    - SwiftyJSON (= 3.1.4)
   - Argo (4.1.1):
     - Runes (>= 4.0.0)
   - Curry (3.0.0)
@@ -25,14 +28,16 @@ PODS:
   - RxCocoa (3.0.1):
     - RxSwift (~> 3.0)
   - RxSwift (3.0.1)
-  - RxTest (3.0.1):
+  - RxTest (3.1.0):
     - RxSwift (~> 3.0)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - APIKitExt/Argo (from `../`)
   - APIKitExt/Himotoki (from `../`)
   - APIKitExt/ObjectMapper (from `../`)
   - APIKitExt/RxSwift (from `../`)
+  - APIKitExt/SwiftyJSON (from `../`)
   - Curry (= 3.0.0)
   - RxCocoa (~> 3.0)
   - RxTest (~> 3.0)
@@ -43,7 +48,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
-  APIKitExt: 97d28a95b8368755ff3f25ae788c710fc6e554c7
+  APIKitExt: a78249cbb8f6b4eaadb6a90ce99109d147f1dec9
   Argo: 014ac072f97462bc1a9b83d302edb351488a532f
   Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
   Himotoki: df74b01035e86e021b7b04a15b033a7fd189b84f
@@ -52,8 +57,9 @@ SPEC CHECKSUMS:
   Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
   RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
   RxSwift: af5680055c4ad04480189c52d28385b1029493a6
-  RxTest: 9867e6f3c435af30fbdb44b6d8ec30b78c40b515
+  RxTest: 661e33b5022682961784da03cf79c175fcc4bd64
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 0a9ee127db953bcbfac0fd1f94599d4509fa8bd7
+PODFILE CHECKSUM: 9d86c965ff76a55af464ec29ab16cb523c78dcc1
 
 COCOAPODS: 1.1.1

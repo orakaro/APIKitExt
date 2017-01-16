@@ -22,5 +22,6 @@ script:
   - pod install --project-directory=Example
   - xcodebuild -workspace Example/APIKitExt.xcworkspace -scheme "ObjectMapper Sample" CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" | xcpretty -c
   - xcodebuild -workspace Example/APIKitExt.xcworkspace -scheme "Argo Sample" CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" | xcpretty -c
+  - xcodebuild -workspace Example/APIKitExt.xcworkspace -scheme "SwiftyJSON Sample" CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" | xcpretty -c
   - xcodebuild -workspace Example/APIKitExt.xcworkspace -scheme "Himotoki Sample" CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" | xcpretty -c
   - xcodebuild build-for-testing test-without-building -workspace Example/APIKitExt.xcworkspace -scheme "Himotoki Sample Tests" -destination 'name=iPhone 7' | xcpretty -c

@@ -14,12 +14,30 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		71CD502CEBCFAD73C73ACBA0 /* Pods_SwiftyJSON_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E6603C0A7D7976711593B1 /* Pods_SwiftyJSON_Sample.framework */; };
 		75AC433D3700BE5E7378B152 /* Pods_Himotoki_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */; };
 		8EAEFA06590038ED2AAC1C52 /* Pods_Himotoki_Sample_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF5A26F12795318C0C7B412 /* Pods_Himotoki_Sample_Tests.framework */; };
 		B401BABD1E0D2C6100F93BC4 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */; };
 		B401BABF1E0D2C9500F93BC4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BABE1E0D2C9500F93BC4 /* Repo.swift */; };
 		B401BAC11E0D677E00F93BC4 /* GithubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */; };
 		B401BAC31E0D6DFA00F93BC4 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401BAC21E0D6DFA00F93BC4 /* SchedulerService.swift */; };
+		B406BB9F1E2D2D8200B0D2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B406BB921E2D2D8200B0D2A4 /* Assets.xcassets */; };
+		B406BBA01E2D2D8200B0D2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B406BB931E2D2D8200B0D2A4 /* LaunchScreen.storyboard */; };
+		B406BBA11E2D2D8200B0D2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B406BB951E2D2D8200B0D2A4 /* Main.storyboard */; };
+		B406BBA21E2D2D8200B0D2A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B406BB971E2D2D8200B0D2A4 /* Info.plist */; };
+		B406BBAE1E2D304500B0D2A4 /* RepoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BB9B1E2D2D8200B0D2A4 /* RepoRequest.swift */; };
+		B406BBB11E2D304500B0D2A4 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BB9A1E2D2D8200B0D2A4 /* Repo.swift */; };
+		B406BBB31E2D304500B0D2A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BB9D1E2D2D8200B0D2A4 /* ViewController.swift */; };
+		B406BBB41E2D304500B0D2A4 /* SchedulerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BB9C1E2D2D8200B0D2A4 /* SchedulerService.swift */; };
+		B406BBB51E2D304500B0D2A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BB911E2D2D8200B0D2A4 /* AppDelegate.swift */; };
+		B406BBB81E2D304500B0D2A4 /* GithubAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BB991E2D2D8200B0D2A4 /* GithubAPIService.swift */; };
+		B406BBBC1E2D304500B0D2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		B406BBBD1E2D304500B0D2A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		B406BBBE1E2D304500B0D2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B406BB921E2D2D8200B0D2A4 /* Assets.xcassets */; };
+		B406BBBF1E2D304500B0D2A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B406BB951E2D2D8200B0D2A4 /* Main.storyboard */; };
+		B406BBC01E2D304500B0D2A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B406BB931E2D2D8200B0D2A4 /* LaunchScreen.storyboard */; };
+		B406BBC11E2D304500B0D2A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		B406BBC21E2D304500B0D2A4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B406BB971E2D2D8200B0D2A4 /* Info.plist */; };
 		B41375151E23CA040030460E /* Repo.xib in Resources */ = {isa = PBXBuildFile; fileRef = B41375141E23CA040030460E /* Repo.xib */; };
 		B41375191E23CA3C0030460E /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41375181E23CA3C0030460E /* RepoTableViewCell.swift */; };
 		B413751C1E23CE2E0030460E /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B413751B1E23CE2E0030460E /* RepoViewModel.swift */; };
@@ -56,7 +74,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19E6603C0A7D7976711593B1 /* Pods_SwiftyJSON_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyJSON_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D957EF86DDF3E2EA6866FD /* Pods-SwiftyJSON Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJSON Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJSON Sample/Pods-SwiftyJSON Sample.release.xcconfig"; sourceTree = "<group>"; };
 		39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Himotoki Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample.release.xcconfig"; sourceTree = "<group>"; };
+		44BE6AB2EA12361CB8B94FE5 /* Pods-SwiftyJSON Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyJSON Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyJSON Sample/Pods-SwiftyJSON Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ObjectMapper Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectMapper Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +95,18 @@
 		B401BABE1E0D2C9500F93BC4 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
 		B401BAC01E0D677E00F93BC4 /* GithubAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIService.swift; sourceTree = "<group>"; };
 		B401BAC21E0D6DFA00F93BC4 /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
+		B406BB911E2D2D8200B0D2A4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B406BB921E2D2D8200B0D2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B406BB941E2D2D8200B0D2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B406BB961E2D2D8200B0D2A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B406BB971E2D2D8200B0D2A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B406BB991E2D2D8200B0D2A4 /* GithubAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIService.swift; sourceTree = "<group>"; };
+		B406BB9A1E2D2D8200B0D2A4 /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		B406BB9B1E2D2D8200B0D2A4 /* RepoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoRequest.swift; sourceTree = "<group>"; };
+		B406BB9C1E2D2D8200B0D2A4 /* SchedulerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchedulerService.swift; sourceTree = "<group>"; };
+		B406BB9D1E2D2D8200B0D2A4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B406BBA81E2D2E1300B0D2A4 /* Pods_SwiftyJSON_Sample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SwiftyJSON_Sample.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/APIKitExt-hbttvgqggdqkbjbfwprdftgzjrgm/Build/Products/Debug-iphonesimulator/Pods_SwiftyJSON_Sample.framework"; sourceTree = "<group>"; };
+		B406BBC81E2D304500B0D2A4 /* SwiftyJSON Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyJSON Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41375141E23CA040030460E /* Repo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Repo.xib; sourceTree = "<group>"; };
 		B41375181E23CA3C0030460E /* RepoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
 		B413751B1E23CE2E0030460E /* RepoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoViewModel.swift; sourceTree = "<group>"; };
@@ -122,6 +155,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B406BBB91E2D304500B0D2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CD502CEBCFAD73C73ACBA0 /* Pods_SwiftyJSON_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B41375211E23D3490030460E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,6 +193,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				B406BB901E2D2D8200B0D2A4 /* SwiftyJSON Sample */,
 				B41BC4351E0E37450075ED16 /* Argo Sample */,
 				F27AB2C6056EA53D0C9CA9CC /* Frameworks */,
 				B43DF6781E0E611C0045688F /* Himotoki Sample */,
@@ -170,6 +212,7 @@
 				B41BC4341E0E37450075ED16 /* Argo Sample.app */,
 				B43DF6771E0E611C0045688F /* Himotoki Sample.app */,
 				B41375241E23D3490030460E /* Himotoki Sample Tests.xctest */,
+				B406BBC81E2D304500B0D2A4 /* SwiftyJSON Sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,6 +256,31 @@
 				B401BABE1E0D2C9500F93BC4 /* Repo.swift */,
 				B401BABC1E0D2C6100F93BC4 /* RepoRequest.swift */,
 				B401BAC21E0D6DFA00F93BC4 /* SchedulerService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B406BB901E2D2D8200B0D2A4 /* SwiftyJSON Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B406BB911E2D2D8200B0D2A4 /* AppDelegate.swift */,
+				B406BB921E2D2D8200B0D2A4 /* Assets.xcassets */,
+				B406BB931E2D2D8200B0D2A4 /* LaunchScreen.storyboard */,
+				B406BB951E2D2D8200B0D2A4 /* Main.storyboard */,
+				B406BB971E2D2D8200B0D2A4 /* Info.plist */,
+				B406BB981E2D2D8200B0D2A4 /* Model */,
+				B406BB9D1E2D2D8200B0D2A4 /* ViewController.swift */,
+			);
+			path = "SwiftyJSON Sample";
+			sourceTree = "<group>";
+		};
+		B406BB981E2D2D8200B0D2A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B406BB991E2D2D8200B0D2A4 /* GithubAPIService.swift */,
+				B406BB9A1E2D2D8200B0D2A4 /* Repo.swift */,
+				B406BB9B1E2D2D8200B0D2A4 /* RepoRequest.swift */,
+				B406BB9C1E2D2D8200B0D2A4 /* SchedulerService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -331,6 +399,8 @@
 				39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */,
 				DF7293A30EB09F07B0995D7E /* Pods-Himotoki Sample Tests.debug.xcconfig */,
 				D5915E7FC0289F3980B73076 /* Pods-Himotoki Sample Tests.release.xcconfig */,
+				44BE6AB2EA12361CB8B94FE5 /* Pods-SwiftyJSON Sample.debug.xcconfig */,
+				35D957EF86DDF3E2EA6866FD /* Pods-SwiftyJSON Sample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -338,10 +408,12 @@
 		F27AB2C6056EA53D0C9CA9CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B406BBA81E2D2E1300B0D2A4 /* Pods_SwiftyJSON_Sample.framework */,
 				A3BACFDE94ED969ED09DCFD8 /* Pods_Argo_Sample.framework */,
 				E12143C29DE185124C66F4CE /* Pods_ObjectMapper_Sample.framework */,
 				C022DE1207B2E45F049F73B9 /* Pods_Himotoki_Sample.framework */,
 				ABF5A26F12795318C0C7B412 /* Pods_Himotoki_Sample_Tests.framework */,
+				19E6603C0A7D7976711593B1 /* Pods_SwiftyJSON_Sample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -367,6 +439,26 @@
 			name = "ObjectMapper Sample";
 			productName = APIKitExt;
 			productReference = 607FACD01AFB9204008FA782 /* ObjectMapper Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B406BBAA1E2D304500B0D2A4 /* SwiftyJSON Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B406BBC51E2D304500B0D2A4 /* Build configuration list for PBXNativeTarget "SwiftyJSON Sample" */;
+			buildPhases = (
+				B406BBAB1E2D304500B0D2A4 /* [CP] Check Pods Manifest.lock */,
+				B406BBAC1E2D304500B0D2A4 /* Sources */,
+				B406BBB91E2D304500B0D2A4 /* Frameworks */,
+				B406BBBB1E2D304500B0D2A4 /* Resources */,
+				B406BBC31E2D304500B0D2A4 /* [CP] Embed Pods Frameworks */,
+				B406BBC41E2D304500B0D2A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyJSON Sample";
+			productName = APIKitExt;
+			productReference = B406BBC81E2D304500B0D2A4 /* SwiftyJSON Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B41375231E23D3490030460E /* Himotoki Sample Tests */ = {
@@ -445,6 +537,9 @@
 						DevelopmentTeam = QHAYH73D9C;
 						LastSwiftMigration = 0820;
 					};
+					B406BBAA1E2D304500B0D2A4 = {
+						DevelopmentTeam = QHAYH73D9C;
+					};
 					B41375231E23D3490030460E = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = QHAYH73D9C;
@@ -478,6 +573,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* ObjectMapper Sample */,
 				B41BC4331E0E37450075ED16 /* Argo Sample */,
+				B406BBAA1E2D304500B0D2A4 /* SwiftyJSON Sample */,
 				B43DF6761E0E611C0045688F /* Himotoki Sample */,
 				B41375231E23D3490030460E /* Himotoki Sample Tests */,
 			);
@@ -491,7 +587,25 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				B406BB9F1E2D2D8200B0D2A4 /* Assets.xcassets in Resources */,
+				B406BBA11E2D2D8200B0D2A4 /* Main.storyboard in Resources */,
+				B406BBA01E2D2D8200B0D2A4 /* LaunchScreen.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B406BBA21E2D2D8200B0D2A4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B406BBBB1E2D304500B0D2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406BBBC1E2D304500B0D2A4 /* Main.storyboard in Resources */,
+				B406BBBD1E2D304500B0D2A4 /* LaunchScreen.xib in Resources */,
+				B406BBBE1E2D304500B0D2A4 /* Assets.xcassets in Resources */,
+				B406BBBF1E2D304500B0D2A4 /* Main.storyboard in Resources */,
+				B406BBC01E2D304500B0D2A4 /* LaunchScreen.storyboard in Resources */,
+				B406BBC11E2D304500B0D2A4 /* Images.xcassets in Resources */,
+				B406BBC21E2D304500B0D2A4 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +760,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Himotoki Sample/Pods-Himotoki Sample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B406BBAB1E2D304500B0D2A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B406BBC31E2D304500B0D2A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyJSON Sample/Pods-SwiftyJSON Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B406BBC41E2D304500B0D2A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyJSON Sample/Pods-SwiftyJSON Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C3145D23628836CA1D599CDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -722,6 +881,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B406BBAC1E2D304500B0D2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B406BBAE1E2D304500B0D2A4 /* RepoRequest.swift in Sources */,
+				B406BBB11E2D304500B0D2A4 /* Repo.swift in Sources */,
+				B406BBB31E2D304500B0D2A4 /* ViewController.swift in Sources */,
+				B406BBB41E2D304500B0D2A4 /* SchedulerService.swift in Sources */,
+				B406BBB51E2D304500B0D2A4 /* AppDelegate.swift in Sources */,
+				B406BBB81E2D304500B0D2A4 /* GithubAPIService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B41375201E23D3490030460E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -786,6 +958,22 @@
 			);
 			name = LaunchScreen.xib;
 			path = .;
+			sourceTree = "<group>";
+		};
+		B406BB931E2D2D8200B0D2A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B406BB941E2D2D8200B0D2A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B406BB951E2D2D8200B0D2A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B406BB961E2D2D8200B0D2A4 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		B41BC43A1E0E37450075ED16 /* Main.storyboard */ = {
@@ -919,7 +1107,6 @@
 			baseConfigurationReference = D21AEE096FE9F0600C8148C9 /* Pods-ObjectMapper Sample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QHAYH73D9C;
 				INFOPLIST_FILE = "ObjectMapper Sample/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -937,13 +1124,46 @@
 			baseConfigurationReference = DE1A9E76FE305995DF40CBDF /* Pods-ObjectMapper Sample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QHAYH73D9C;
 				INFOPLIST_FILE = "ObjectMapper Sample/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.ObjectMapper-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B406BBC61E2D304500B0D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BE6AB2EA12361CB8B94FE5 /* Pods-SwiftyJSON Sample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftyJSON Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.SwiftyJSON-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B406BBC71E2D304500B0D2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D957EF86DDF3E2EA6866FD /* Pods-SwiftyJSON Sample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QHAYH73D9C;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftyJSON Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vunhatminh.SwiftyJSON-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -995,7 +1215,6 @@
 			baseConfigurationReference = FF6D54714866EAD920B6D886 /* Pods-Argo Sample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1016,7 +1235,6 @@
 			baseConfigurationReference = 7DBE3AD0C570CECB61AA3D9B /* Pods-Argo Sample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = QHAYH73D9C;
@@ -1035,7 +1253,6 @@
 			baseConfigurationReference = B1CECC39C84E609EFE21DC83 /* Pods-Himotoki Sample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1056,7 +1273,6 @@
 			baseConfigurationReference = 39BA8789BBAC353484FB9227 /* Pods-Himotoki Sample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEVELOPMENT_TEAM = QHAYH73D9C;
@@ -1087,6 +1303,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B406BBC51E2D304500B0D2A4 /* Build configuration list for PBXNativeTarget "SwiftyJSON Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B406BBC61E2D304500B0D2A4 /* Debug */,
+				B406BBC71E2D304500B0D2A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -39,6 +39,12 @@ APIKitExt is a set of useful extension to work with APIKit and libraries such as
     ss.dependency "Argo", '4.1.1'
   end
 
+  s.subspec "SwiftyJSON" do |ss|
+    ss.source_files  = "Sources/Classes/SwiftyJSON/*.swift"
+    ss.dependency "APIKitExt/Core"
+    ss.dependency "SwiftyJSON", '3.1.4'
+  end
+
   s.subspec "RxSwift" do |ss|
     ss.source_files = "Sources/Classes/RxSwift/*.swift"
     ss.dependency "APIKitExt/Core"

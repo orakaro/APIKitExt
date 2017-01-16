@@ -22,3 +22,8 @@ target 'Himotoki Sample' do
   end
 end
 
+target 'SwiftyJSON Sample' do
+  pod 'APIKitExt/SwiftyJSON', :path => '../'
+  pod 'APIKitExt/RxSwift', :path => '../'
+end
+
