@@ -1,6 +1,7 @@
 # APIKitExt
 [![Build Status](https://travis-ci.org/DTVD/APIKitExt.svg?branch=master)](https://travis-ci.org/DTVD/APIKitExt)
 [![Version](https://img.shields.io/cocoapods/v/APIKitExt.svg)]()
+[![Language](https://img.shields.io/badge/language-swift3.0-f48041.svg?style=flat)](https://developer.apple.com/swift)
 
 Extensions for famous type-safe networking library [APIKit](https://github.com/ishkawa/APIKit), provides easy binding with various JSON serialization libraries such as [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper), [Argo](https://github.com/thoughtbot/Argo), [Himotoki](https://github.com/ikesyo/Himotoki) and also Reactive Extension for [RxSwift](https://github.com/ReactiveX/RxSwift) :tada:
 
@@ -12,11 +13,19 @@ Extensions for famous type-safe networking library [APIKit](https://github.com/i
 * tvOS 9.0 or later
 
 ## Installation
-APIKitExt is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+APIKitExt is available through [CocoaPods](http://cocoapods.org). Depend on which Json serialization library that you want to use with APIKit, you can add to your Podfile as below:
 
 ```ruby
-pod "APIKitExt"
+# APIKit + ObjectMapper
+pod "APIKitExt/ObjectMapper"
+```
+```ruby
+# APIKit + Argo
+pod "APIKitExt/Argo"
+```
+```ruby
+# APIKit + Himotoki
+pod "APIKitExt/Himotoki"
 ```
 
 # Usage
