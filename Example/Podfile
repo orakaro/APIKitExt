@@ -27,3 +27,13 @@ target 'SwiftyJSON Sample' do
   pod 'APIKitExt/RxSwift', :path => '../'
 end
 
+target 'ModelMapper Sample' do
+  pod 'APIKitExt/ModelMapper', :path => '../'
+  pod 'APIKitExt/RxSwift', :path => '../'
+end
+
+target 'JASON Sample' do
+  pod 'APIKitExt/JASON', :path => '../'
+  pod 'APIKitExt/RxSwift', :path => '../'
+end
+

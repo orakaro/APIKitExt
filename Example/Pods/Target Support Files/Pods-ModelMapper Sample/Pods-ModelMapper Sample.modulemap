@@ -1,0 +1,6 @@
+framework module Pods_ModelMapper_Sample {
+  umbrella header "Pods-ModelMapper Sample-umbrella.h"
+
+  export *
+  module * { export * }
+}

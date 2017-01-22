@@ -31,6 +31,14 @@ pod "APIKitExt/Himotoki"
 # APIKit + SwiftyJSON
 pod "APIKitExt/SwiftyJSON"
 ```
+```ruby
+# APIKit + ModelMapper
+pod "APIKitExt/ModelMapper"
+```
+```ruby
+# APIKit + JASON
+pod "APIKitExt/JASON"
+```
 
 # Usage
 Below are detailed explanations for each combination of APIKit and JSON serialization library. You can also check demo apps in Example folder.
@@ -39,8 +47,8 @@ Below are detailed explanations for each combination of APIKit and JSON serializ
 * [x] [APIKit + Argo](https://github.com/DTVD/APIKitExt/blob/master/ArgoUsage.md)
 * [x] [APIKit + Himotoki](https://github.com/DTVD/APIKitExt/blob/master/HimotokiUsage.md)
 * [x] [APIKit + SwiftyJSON](https://github.com/DTVD/APIKitExt/blob/master/SwiftyJSONUsage.md)
-* [ ] APIKit + ModelMapper
-* [ ] APIKit + JASON
+* [x] [APIKit + ModelMapper](https://github.com/DTVD/APIKitExt/blob/master/ModelMapperUsage.md)
+* [x] [APIKit + JASON](https://github.com/DTVD/APIKitExt/blob/master/JASONUsage.md)
 * [ ] APIKit + Unbox
 
 The demo app for APIKit + APIKitExt + Himotoki + RxSwift is following MVVM architecture with reactive unit test included. Check it out and have fun!

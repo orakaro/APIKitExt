@@ -9,6 +9,12 @@ PODS:
   - APIKitExt/Himotoki (0.0.1):
     - APIKitExt/Core
     - Himotoki (= 3.0.0)
+  - APIKitExt/JASON (0.0.1):
+    - APIKitExt/Core
+    - JASON (= 3.1)
+  - APIKitExt/ModelMapper (0.0.1):
+    - APIKitExt/Core
+    - ModelMapper (= 6.0.0)
   - APIKitExt/ObjectMapper (0.0.1):
     - APIKitExt/Core
     - ObjectMapper (= 2.2.2)
@@ -22,6 +28,8 @@ PODS:
     - Runes (>= 4.0.0)
   - Curry (3.0.0)
   - Himotoki (3.0.0)
+  - JASON (3.1)
+  - ModelMapper (6.0.0)
   - ObjectMapper (2.2.2)
   - Result (3.1.0)
   - Runes (4.0.1)
@@ -35,6 +43,8 @@ PODS:
 DEPENDENCIES:
   - APIKitExt/Argo (from `../`)
   - APIKitExt/Himotoki (from `../`)
+  - APIKitExt/JASON (from `../`)
+  - APIKitExt/ModelMapper (from `../`)
   - APIKitExt/ObjectMapper (from `../`)
   - APIKitExt/RxSwift (from `../`)
   - APIKitExt/SwiftyJSON (from `../`)
@@ -48,10 +58,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
-  APIKitExt: a78249cbb8f6b4eaadb6a90ce99109d147f1dec9
+  APIKitExt: 9278cc1fb958a9a27e837ea2d433d70cd836041d
   Argo: 014ac072f97462bc1a9b83d302edb351488a532f
   Curry: eb3d2c75aec678b3cc7fb2729d2ad6dd121531d1
   Himotoki: df74b01035e86e021b7b04a15b033a7fd189b84f
+  JASON: c1204b01c9979eef35b6948ca939aac5e7bef081
+  ModelMapper: 3596a82f26c43491f6a8d3a00bcdba6ba0e62a93
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
   Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
   Runes: ff20f163b478ac2c0e18158d6086fd5b1997f983
@@ -60,6 +72,6 @@ SPEC CHECKSUMS:
   RxTest: 661e33b5022682961784da03cf79c175fcc4bd64
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 9d86c965ff76a55af464ec29ab16cb523c78dcc1
+PODFILE CHECKSUM: afc9e8b9d046d85247a2fe1e0b7283b5dc6218aa
 
 COCOAPODS: 1.1.1

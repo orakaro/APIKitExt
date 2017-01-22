@@ -1,0 +1,6 @@
+framework module APIKitExt {
+  umbrella header "APIKitExt-Core-JASON-RxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

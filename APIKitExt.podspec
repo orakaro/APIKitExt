@@ -45,6 +45,18 @@ APIKitExt is a set of useful extension to work with APIKit and libraries such as
     ss.dependency "SwiftyJSON", '3.1.4'
   end
 
+  s.subspec "ModelMapper" do |ss|
+    ss.source_files  = "Sources/Classes/ModelMapper/*.swift"
+    ss.dependency "APIKitExt/Core"
+    ss.dependency "ModelMapper", '6.0.0'
+  end
+
+  s.subspec "JASON" do |ss|
+    ss.source_files  = "Sources/Classes/JASON/*.swift"
+    ss.dependency "APIKitExt/Core"
+    ss.dependency "JASON", '3.1'
+  end
+
   s.subspec "RxSwift" do |ss|
     ss.source_files = "Sources/Classes/RxSwift/*.swift"
     ss.dependency "APIKitExt/Core"

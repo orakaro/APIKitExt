@@ -21,6 +21,6 @@ public extension SwiftyJSONable {
         return result
     }
     public static func mapArray(_ object: Any) throws -> [Self] {
-        return JSON(object).arrayValue.flatMap{ Self(data: $0)}
+        return JSON(object).arrayValue.flatMap{Self(data: $0)}
     }
 }
