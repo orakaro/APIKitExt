@@ -57,6 +57,12 @@ APIKitExt is a set of useful extension to work with APIKit and libraries such as
     ss.dependency "JASON", '3.1'
   end
 
+  s.subspec "Unbox" do |ss|
+    ss.source_files  = "Sources/Classes/Unbox/*.swift"
+    ss.dependency "APIKitExt/Core"
+    ss.dependency "Unbox", '2.3.0'
+  end
+
   s.subspec "RxSwift" do |ss|
     ss.source_files = "Sources/Classes/RxSwift/*.swift"
     ss.dependency "APIKitExt/Core"

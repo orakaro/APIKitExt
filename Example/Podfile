@@ -37,3 +37,7 @@ target 'JASON Sample' do
   pod 'APIKitExt/RxSwift', :path => '../'
 end
 
+target 'Unbox Sample' do
+  pod 'APIKitExt/Unbox', :path => '../'
+  pod 'APIKitExt/RxSwift', :path => '../'
+end

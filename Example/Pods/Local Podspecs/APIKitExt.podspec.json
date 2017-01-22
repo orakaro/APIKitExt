@@ -103,6 +103,18 @@
       }
     },
     {
+      "name": "Unbox",
+      "source_files": "Sources/Classes/Unbox/*.swift",
+      "dependencies": {
+        "APIKitExt/Core": [
+
+        ],
+        "Unbox": [
+          "2.3.0"
+        ]
+      }
+    },
+    {
       "name": "RxSwift",
       "source_files": "Sources/Classes/RxSwift/*.swift",
       "dependencies": {

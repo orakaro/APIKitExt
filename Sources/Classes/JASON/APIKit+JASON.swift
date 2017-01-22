@@ -1,5 +1,5 @@
 //
-//  APIKit+Argo.swift
+//  APIKit+JASON.swift
 //
 //
 //  Created by DTVD on 24/12/16.

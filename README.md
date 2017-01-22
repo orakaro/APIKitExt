@@ -39,17 +39,22 @@ pod "APIKitExt/ModelMapper"
 # APIKit + JASON
 pod "APIKitExt/JASON"
 ```
+```ruby
+# APIKit + Unbox
+pod "APIKitExt/Unbox"
+```
 
 # Usage
 Below are detailed explanations for each combination of APIKit and JSON serialization library. You can also check demo apps in Example folder.
 
-* [x] [APIKit + ObjectMapper](https://github.com/DTVD/APIKitExt/blob/master/ObjectMapperUsage.md)
-* [x] [APIKit + Argo](https://github.com/DTVD/APIKitExt/blob/master/ArgoUsage.md)
-* [x] [APIKit + Himotoki](https://github.com/DTVD/APIKitExt/blob/master/HimotokiUsage.md)
-* [x] [APIKit + SwiftyJSON](https://github.com/DTVD/APIKitExt/blob/master/SwiftyJSONUsage.md)
-* [x] [APIKit + ModelMapper](https://github.com/DTVD/APIKitExt/blob/master/ModelMapperUsage.md)
-* [x] [APIKit + JASON](https://github.com/DTVD/APIKitExt/blob/master/JASONUsage.md)
-* [ ] APIKit + Unbox
+* [x] [APIKit + ObjectMapper](https://github.com/DTVD/APIKitExt/blob/master/Documentations/ObjectMapperUsage.md)
+* [x] [APIKit + Argo](https://github.com/DTVD/APIKitExt/blob/master/Documentations/ArgoUsage.md)
+* [x] [APIKit + Himotoki](https://github.com/DTVD/APIKitExt/blob/master/Documentations/HimotokiUsage.md)
+* [x] [APIKit + SwiftyJSON](https://github.com/DTVD/APIKitExt/blob/master/Documentations/SwiftyJSONUsage.md)
+* [x] [APIKit + ModelMapper](https://github.com/DTVD/APIKitExt/blob/master/Documentations/ModelMapperUsage.md)
+* [x] [APIKit + JASON](https://github.com/DTVD/APIKitExt/blob/master/Documentations/JASONUsage.md)
+* [x] [APIKit + Unbox](https://github.com/DTVD/APIKitExt/blob/master/Documentations/UnboxUsage.md)
+
 
 The demo app for APIKit + APIKitExt + Himotoki + RxSwift is following MVVM architecture with reactive unit test included. Check it out and have fun!
 
